@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+.theme-entry#ShareDoTheme .panel>.panel-body
+{
+    background-color: #fafafa;
+}
+
+.theme-entry#ShareDoTheme,
+.theme-entry#ShareDoTheme span
+{
+    font-family: "Barlow","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.theme-entry#ShareDoTheme .SFC.SourceCode-Forms-Controls-Web-TextBox,
+.theme-entry#ShareDoTheme .SFC.SourceCode-Forms-Controls-Web-ControlPack-AutoComplete .input-control-wrapper,
+.theme-entry#ShareDoTheme .input-control.select-box,
+.theme-entry#ShareDoTheme .picker
+{
+    color: #606f7b;
+    background-color: #fff;
+}
+
+.theme-entry#ShareDoTheme .grid-header-wrapper, 
+.theme-entry#ShareDoTheme .grid-header-wrapper .grid-header-text,
+.theme-entry#ShareDoTheme .panel-header,
+.theme-entry#ShareDoTheme .panel-header .panel-header-wrapper,
+.theme-entry#ShareDoTheme .panel-header .panel-header-wrapper .panel-header-text
+{
+    height: 42px;
+}
+
+.theme-entry#ShareDoTheme .grid-header-wrapper .grid-header-controls a,
+.theme-entry#ShareDoTheme .panel-header-wrapper .panel-header-controls a 
+{
+    margin-top: 10px;
+}
+
+.theme-entry#ShareDoTheme .grid-header-wrapper .grid-header-text>span, 
+.theme-entry#ShareDoTheme .panel-header-wrapper .panel-header-text>span,
+.theme-entry#ShareDoTheme h1.SFC.SourceCode-Forms-Controls-Web-Label,
+.theme-entry#ShareDoTheme h1.SourceCode-Forms-Controls-Web-DataLabel
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Barlow","Helvetica Neue",Helvetica,Arial,sans-serif;
+     line-height: 1.42857143;
+    /*box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.42857143px;
+    flex: 0 0 auto;
+    padding: 5px 15px;
+    background-color: #3d4852; */
+    /* color: #fafafa; */
+    font-size: 30px;
+    font-weight: 500;
+    color: #3d4852;
+}
+
+.theme-entry#ShareDoTheme h2.SFC.SourceCode-Forms-Controls-Web-Label,
+.theme-entry#ShareDoTheme h2.SourceCode-Forms-Controls-Web-DataLabel
+{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.theme-entry#ShareDoTheme h3.SFC.SourceCode-Forms-Controls-Web-Label,
+.theme-entry#ShareDoTheme h3.SourceCode-Forms-Controls-Web-DataLabel
+{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.theme-entry#ShareDoTheme h4.SFC.SourceCode-Forms-Controls-Web-Label,
+.theme-entry#ShareDoTheme h4.SourceCode-Forms-Controls-Web-DataLabel
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.theme-entry#ShareDoTheme .panel-header, 
+.theme-entry#ShareDoTheme .panel-header div,
+.theme-entry#ShareDoTheme .grid-header-wrapper,
+.theme-entry#ShareDoTheme .grid-header-wrapper div,
+.theme-entry#ShareDoTheme .grid-header-wrapper .grid-header-text>span, 
+.theme-entry#ShareDoTheme .panel-header-wrapper .panel-header-text>span
+{
+   color: #fafafa;
+   background-color: #3d4852; 
+}
+
+.theme-entry#ShareDoTheme .SFC.SourceCode-Forms-Controls-Web-TextBox,
+.theme-entry#ShareDoTheme .picker
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    font-family: inherit;
+    height: 34px;
+    line-height: 1.42857143;
+    color: #606f7b;
+    background-image: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border: 1px solid #999;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;;
+    font-size: 12px;
+    padding: 2px 8px;
+}
+
+.theme-entry#ShareDoTheme span.textbox-style-wrapper.invalid,
+.theme-entry#ShareDoTheme .SFC.SourceCode-Forms-Controls-Web-TextBox.invalid,
+.theme-entry#ShareDoTheme .input-control.invalid .input-control-m-c,
+.theme-entry#ShareDoTheme .input-control.control-group-container.invalid .input-control-m-c,
+.theme-entry#ShareDoTheme .SourceCode-Forms-Controls-Web-Label.invalid,
+.theme-entry#ShareDoTheme .SourceCode-Forms-Controls-Web-DataLabel.invalid,
+.theme-entry#ShareDoTheme .file-wrapper.invalid,
+.theme-entry#ShareDoTheme div.hyperlinkTopLeftPanel.invalid,
+.theme-entry#ShareDoTheme .picker .input-control.invalid .input-control-m-c,
+.theme-entry#ShareDoTheme .input-control.invalid textarea,
+.theme-entry#ShareDoTheme .input-control.select-box.invalid input[type="text"]
+{
+    border-color: #ae1c17 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+
+/*Label Styles*/
+.theme-entry#ShareDoTheme .SourceCode-Forms-Controls-Web-Label,
+.theme-entry#ShareDoTheme .SourceCode-Forms-Controls-Web-DataLabel
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Barlow","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #3d4852;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-weight: bold;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0;
+    padding-top: 2px;
+    text-align: left;
+}
+
+.theme-entry#ShareDoTheme .SourceCode-Forms-Controls-Web-Label[name$='ShareDoRegular'],
+.theme-entry#ShareDoTheme .SourceCode-Forms-Controls-Web-DataLabel[name$='ShareDoRegular']
+{
+    font-weight: normal;
+}
+/*Label styles*/
+
+.theme-entry#ShareDoTheme .input-control.select-box.dropdown-box
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Barlow","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    color: #3d4852;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    user-select: none;
+    font-size: 12px;
+}
+
+/* .theme-entry#ShareDoTheme .input-control.select-box.dropdown-box a
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Barlow","Helvetica Neue",Helvetica,Arial,sans-serif;
+    user-select: none;
+    font-size: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative; */
+    /* display: block; */
+    /* overflow: hidden;
+    padding: 0 0 0 8px;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 24px;
+    border: 1px solid #5897fb;
+    border-radius: 0;
+    box-shadow: none;
+    color: inherit;
+    height: 25px;
+} */
+
+
+.theme-entry#ShareDoTheme .input-control.select-box .input-control-buttons a.dropdown>span span
+{
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 24px;
+    color: #3d4852;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAlCAQAAACn+wJeAAAB4UlEQVRIx+2XsWtTURTGrwouLQQDwYLFzT3yJBDoYoVvySQoKFShSHe7qAgqiMn9rcUibnVwEARBl0AgUIh/QXBxFIpKJHAhUBz0HQcf4U0xtZwu+r3l8t4758fHPe/jvhBcRIUuWbFuMKAWnEB9jEQWAk0SRt8LtMo+RmKdhDGiHrzEChOMHGPsiAkhBDbIMXKu+2KaJUfZwcsXD4RJrJFKKHaw6fVmRnmNT5ydC9TDSDRCIGOMMfh9u8pegRmzNKP8NUZvzu+oR6NY19mddqVVgG7MKL5SvHPrcJu3g/F2xvMqowKUOHMYUJXhrAa8Ku1j90/dVFFXxaypoYFqfzFR80h9mZKyENRUkskrgrSqfZmS1pVkGskvG7SiiUy5TGP5RpA2lMuUyzeC1Cw5yrwxSWtKrij1ZEpqhKBMY5kGXqCKeioiSHXtain817+k9gLLLD887ozhLl8xjGG86onZxuIe99jCsHjTCRMvYvF9+1QIIcTz8RuTzmkfP0+jdaYJHW9jXPYBvYj5/ZNlf06HxvgEYzoC8Tk5l1xAnXP8IHVam8faC3GTn3x5cMJr6q5h0fjI5+L4suU24PFCfMkHhvExHQyL20eQEfERhsVncdEfdYfvGK2jcPUOK/+A/QJb5yp50uoC6QAAAABJRU5ErkJggg==') no-repeat 0 2px;
+}
+
+/* @media only screen and (max-resolution: 1.5dppx), (max-resolution: 144dpi), (-webkit-max-device-pixel-ratio: 1.5), not all */
+.theme-entry#ShareDoTheme .input-control.select-box .input-control-buttons a.dropdown:active>span span, 
+.theme-entry#ShareDoTheme .input-control.select-box.active .input-control-buttons a.dropdown>span span,
+.theme-entry#ShareDoTheme .input-control.select-box.active .input-control-buttons a.dropdown:focus>span span, 
+.theme-entry#ShareDoTheme .input-control.select-box.active .input-control-buttons a.dropdown:hover>span span, 
+.theme-entry#ShareDoTheme .input-control.select-box.read-only .input-control-buttons a.dropdown:hover>span span,
+.theme-entry#ShareDoTheme .input-control.select-box.read-only .input-control-buttons a.dropdown:focus>span span 
+{
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAlCAQAAACn+wJeAAAB4UlEQVRIx+2XsWtTURTGrwouLQQDwYLFzT3yJBDoYoVvySQoKFShSHe7qAgqiMn9rcUibnVwEARBl0AgUIh/QXBxFIpKJHAhUBz0HQcf4U0xtZwu+r3l8t4758fHPe/jvhBcRIUuWbFuMKAWnEB9jEQWAk0SRt8LtMo+RmKdhDGiHrzEChOMHGPsiAkhBDbIMXKu+2KaJUfZwcsXD4RJrJFKKHaw6fVmRnmNT5ydC9TDSDRCIGOMMfh9u8pegRmzNKP8NUZvzu+oR6NY19mddqVVgG7MKL5SvHPrcJu3g/F2xvMqowKUOHMYUJXhrAa8Ku1j90/dVFFXxaypoYFqfzFR80h9mZKyENRUkskrgrSqfZmS1pVkGskvG7SiiUy5TGP5RpA2lMuUyzeC1Cw5yrwxSWtKrij1ZEpqhKBMY5kGXqCKeioiSHXtain817+k9gLLLD887ozhLl8xjGG86onZxuIe99jCsHjTCRMvYvF9+1QIIcTz8RuTzmkfP0+jdaYJHW9jXPYBvYj5/ZNlf06HxvgEYzoC8Tk5l1xAnXP8IHVam8faC3GTn3x5cMJr6q5h0fjI5+L4suU24PFCfMkHhvExHQyL20eQEfERhsVncdEfdYfvGK2jcPUOK/+A/QJb5yp50uoC6QAAAABJRU5ErkJggg==') no-repeat -18px 2px;
+}
+
+.theme-entry#ShareDoTheme .drop-menu .selected
+{
+    background-color: #3875d7;
+    background-image: linear-gradient(#3875d7 20%,#2a62bc 90%);
+    color: #fafafa;
+}
+
+.theme-entry#ShareDoTheme .drop-menu
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Barlow","Helvetica Neue",Helvetica,Arial,sans-serif;
+    user-select: none;
+    font-size: 12px;
+    color: #444;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px 6px;
+    list-style: none;
+    line-height: 15px;
+    /* display: list-item; */
+    cursor: pointer;
+}
+
+/* Text input styles */
+.theme-entry#ShareDoTheme .input-control.text-input .input-control-wrapper,
+.theme-entry#ShareDoTheme .input-control.select-box.lookup-box.calendar-control,
+.theme-entry#ShareDoTheme .input-control.select-box.dropdown-box
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    overflow: auto;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #606f7b;
+    background-image: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border: 1px solid #999;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;;
+    font-size: 12px;
+    padding: 2px 8px;
+    height: auto;
+}
+
+.theme-entry#ShareDoTheme .input-control.select-box.lookup-box.calendar-control,
+.theme-entry#ShareDoTheme .input-control.select-box.dropdown-box
+{
+    height: 34px;
+}
+/* .theme-entry#ShareDoTheme .input-control.select-box .input-control-buttons a.date>span span, 
+.theme-entry#ShareDoTheme .input-control.select-box .input-control-buttons a.date>span span,
+.theme-entry#ShareDoTheme .input-control.select-box .input-control-buttons a.date:hover>span span, 
+.theme-entry#ShareDoTheme .input-control.select-box .input-control-buttons a.date:focus>span span
+{
+    background: none;
+    color: rgba(255, 255, 255, 0);
+} */
+/*Remove Lithium Border from dropdowns*/
+.theme-entry#ShareDoTheme .input-control.select-box.dropdown-box .input-control-m-c,
+.theme-entry#ShareDoTheme .input-control.select-box.dropdown-box .input-control-buttons.styling-right.styling-inner-wrapper,
+.theme-entry#ShareDoTheme .input-control.lookup-box.picker-input .input-control-m-c,
+.theme-entry#ShareDoTheme .input-control.lookup-box.picker-input .input-control-buttons.styling-right.styling-inner-wrapper
+{
+    border: 0px;
+}
+
+.theme-entry#ShareDoTheme .input-control.select-box.dropdown-box .input-control-buttons a 
+{
+    width: 1.4rem;
+}
+
+.theme-entry#ShareDoTheme .input-control.select-box.lookup-box.calendar-control .styling-inner-wrapper
+{
+    border: none;
+    padding: 0px;
+}
+
+.theme-entry#ShareDoTheme .SFC.SourceCode-Forms-Controls-Web-TextBox.focus,
+.theme-entry#ShareDoTheme .input-control.select-box.lookup-box.calendar-control.active,
+.theme-entry#ShareDoTheme .SFC.SourceCode-Forms-Controls-Web-ControlPack-AutoComplete .input-control.text-input.active .input-control-wrapper
+{
+    outline: 5px auto #66afe9;
+    outline-offset: -2px;
+}
+
+.theme-entry#ShareDoTheme .input-control.text-input .textarea
+{
+    border: none;
+    margin: 0px;
+}
+/* Text input styles end */
+
+.theme-entry#ShareDoTheme .input-control.select-box.lookup-box.calendar-control .input-control-buttons.styling-left.styling-inner-wrapper
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    font-family: inherit;
+    height: 34px;
+    line-height: 1.42857143;
+    color: #3d4852;
+    background-color: #fafafa;
+    background-image: none;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    border: 1px solid #999;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;;
+    font-size: 12px;
+    padding: 2px 8px;
+}
+
+/*calendarPopupStyle (Sharedo)*/
+.theme-entry#ShareDoTheme .popup.id-calendar-control-popup.type-date-only
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Barlow","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    color: #3d4852;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    background-clip: padding-box;
+    list-style: none;
+    margin: 2px 0;
+    padding: 4px;
+    width: 19em;
+    top: 34px;
+    bottom: auto;
+    left: 15px;
+    right: auto;
+    display: block;
+}
+
+.theme-entry#ShareDoTheme .popup.id-calendar-control-popup.type-date-only .calendar-outline,
+.theme-entry#ShareDoTheme .dayname,
+.theme-entry#ShareDoTheme .not-of-current-month.day,
+.theme-entry#ShareDoTheme .not-of-current-month.day:visited, 
+.theme-entry#ShareDoTheme .timepicker-spinner-labe,
+.theme-entry#ShareDoTheme a.day, 
+.theme-entry#ShareDoTheme a.day:visited, 
+.theme-entry#ShareDoTheme a.month, 
+.theme-entry#ShareDoTheme a.month:visited, 
+.theme-entry#ShareDoTheme a.year, 
+.theme-entry#ShareDoTheme a.year:visited
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Barlow","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    color: #3d4852;
+    background-color: #fff;
+    font-size: 14px;
+    list-style: none;
+    visibility: visible;
+    box-sizing: border-box;
+    text-shadow: none;
+}
+
+.theme-entry#ShareDoTheme .today-title,
+.theme-entry#ShareDoTheme .dayname,
+.theme-entry#ShareDoTheme .today-text-value
+{
+    font-weight: bolder;
+    color: #3d4852;
+    background-color: #fff;
+    text-shadow: none;
+}
+
+.theme-entry#ShareDoTheme .calendar-row.week:first-child
+{
+    border: none;
+}
+
+/* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: "Barlow","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #3d4852;
+    font-size: 14px;
+    list-style: none;
+    visibility: visible;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+} */

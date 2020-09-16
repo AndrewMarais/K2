@@ -1,0 +1,15 @@
+{
+  "name": "nouveau",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node index.js",
+    "start": "node Minify.js",
+     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
+}
